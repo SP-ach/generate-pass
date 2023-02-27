@@ -1,0 +1,113 @@
+body{
+    background-image: url(https://www.worksighted.com/wp-content/uploads/2020/06/passphrase-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h5{
+    text-align: center;
+    font-size: 55px;
+    color: #b8937b;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(154,117,93),
+                 0px 1px 0 rgb(124,87,63),
+                 0px 2px 0 rgb(93,56,32),
+                 0px 3px 0 rgb(63,26,2),
+                 0px 4px  0 rgb(33,-4,0),
+                 0px 5px 4px rgba(96,97,163,0.34),
+                 0px 5px 1px rgba(96,97,163,0.5),
+                 0px 0px 4px rgba(96,97,163,.2);
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.threed{
+    /* background-image: url(./3d.png); */
+
+    z-index: 5;
+    position: relative;
+    left: 295px;
+    top: 5px;
+    
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    /* border: 3px solid black; */
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 100% 0% 100% 0% / 23% 74% 26% 77% ;;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.lbl-len{
+width: 300px;  
+position: relative;
+left: 160px; 
+}
+
+.input-len{
+    background: rgb(187,185,209);
+background: linear-gradient(90deg, rgba(187,185,209,1) 0%, rgba(166,194,210,1) 49%, rgba(109,117,213,1) 100%);
+    /* border: 2px solid darkblue; */
+    width: 367px;
+    position: relative;
+    
+}
+#chebox{
+    width: 15px;
+    height: 15px;
+
+}
+
+#gen {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    left: 103px;
+    top: 20px;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #000428 0%, #004e92 75%);
+  }
+  #gen:hover {
+    background-image: linear-gradient(315deg, #004e92  0%,  #050b3f98 75%);
+    background-position: right center;
+  }
+  #gen:active {
+    top: 5px;
+  }
+
+  .pass{
+    position: relative;
+    top: 50px;
+    
+  }
+
+  #pw{
+    margin-left: 10px;
+    background-color: #e1d9d3;
+    font-size: 30px;
+    color: #352f2c;
+    font-family: Courier New;
+    text-shadow: 0px 0px 0 rgb(92,78,72),
+                 -1px 0px  0 rgb(92,78,72),
+                 -2px 0px 1px rgba(9,36,10,0.6),
+                 -2px 0px 1px rgba(9,36,10,0.5),
+                 0px 0px 1px rgba(9,36,10,.2);
+  }
