@@ -27,7 +27,7 @@ function App() {
       <div class="parent">
       <div class="container">
         <div class="threed">
-          <img src="https://cdn0.iconfinder.com/data/icons/3d-dynamic-premium/256/lock-dynamic-premium.png" width="80px"></img>
+          <img src="https://cdn0.iconfinder.com/data/icons/3d-dynamic-premium/256/lock-dynamic-premium.png" width="80px" alt="lock" />
         </div>
         <div class="row">
           <div class="col">
